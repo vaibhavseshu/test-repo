@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reactiveform.component.scss']
 })
 export class ReactiveformComponent implements OnInit {
+  constructor() {
 
-  constructor() { }
+   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void { }
 }

@@ -8,12 +8,15 @@ import {MatTableModule} from '@angular/material/table';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { TemplateformComponent } from './templateform/templateform.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReactiveformComponent
+    ReactiveformComponent,
+    TemplateformComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +24,8 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     BrowserAnimationsModule,
     MatTableModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
